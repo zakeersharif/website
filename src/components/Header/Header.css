@@ -1,0 +1,151 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+.nav-container{
+    height: 60px;
+    display: flex;
+    background-color:#222d3a;
+    color:white;
+    flex-direction: row;
+    
+    background-size: cover;
+    position: sticky;
+    top:0px;
+    margin-left: auto;
+    width: 100vw;
+    
+}
+@media (max-width:480px){
+  
+    .nav-container{
+        height: 60px;
+        display: flex;
+        background-color:#222d3a;
+        color:white;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: smaller;
+        background-size: cover;
+        position: sticky;
+    
+        
+        width: 100vw;
+        overflow-y: hidden;
+
+    }
+}
+
+.nav-items{
+    list-style-type: none;
+    text-decoration: none;
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+   
+    font-size: 20px;
+}
+
+
+
+.list-items{
+    display: flex;
+   
+    float:right;
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+
+}
+.photo-2{
+    width:80%;
+    color:aliceblue;
+    margin-left: 16px;
+    
+}
+@media (max-width:480px){
+    .photo-2{
+        width:25%;
+        color:aliceblue;
+        margin-left: 16px;
+        
+    }
+    .nav-items{
+        list-style-type: none;
+        text-decoration: none;
+        color:aliceblue;
+        display: flex;
+        flex-direction: row;
+       
+        font-size: 10px;
+       
+        
+        
+    }
+    .list-items{
+        display: flex;
+       
+        float:right;
+        padding: 4px;
+    }
+}
+
+
+header{
+    background-color: #222d3a;
+    color: #ffffff;
+    font-family:'sans-serif';
+    flex-wrap: wrap;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top:0;
+    width:100vw;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+
+
+@media  (max-width:480px){
+ .main-heading{
+    font-size: 16px;
+ }
+}
+@media  (min-width:480px){
+    .main-heading{
+       font-size: large;
+    }
+   }
+
+
+.button-1{
+    color: white;
+    background-color:#eca04a;
+    height:max-content;
+    border-radius: 12px;
+    height: 34px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-width: 0px ;
+    transition: all 100ms;
+    margin-bottom: 14px;
+}
+.button-1:hover{
+
+    background-color: #f58c14;
+    transform: scale(1.05);
+}

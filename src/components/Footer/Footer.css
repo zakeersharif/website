@@ -1,0 +1,61 @@
+.q-a-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color:#222d3a ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+    width:100vw;
+    
+}
+
+.footer-card-1{
+    background-color: aliceblue;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    width:80%;
+}
+.footer-description{
+    color:white;
+}
+
+button{
+    background-color: #15c5e8;
+    color: white;
+    border-radius: 4px;
+    border-width: 0px;
+    
+    height: 28px;
+
+}
+
+.button-4{
+color:white;
+border-radius: 0px;
+border-width: 0;
+box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+background-color: #15c5e8;
+cursor: pointer;
+display: inline-block;
+font-family: Arial, sans-serif;
+font-size: 1em;
+height: 50px;
+padding: 0 25px;
+transition: all 200ms;
+}
+.button-4:hover{
+
+transform: scale(1.05);
+}
+
+.b-p{
+    font-size: medium;
+}
